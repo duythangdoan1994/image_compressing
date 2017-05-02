@@ -1,5 +1,5 @@
 body {
-      background-color: #384259;
+      background-color: white;
       color: white;
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
@@ -13,6 +13,7 @@ body {
       height: 100vh;
       overflow: hidden;
       min-height: 400px;
+      background-color: snow;
 }
 
 .preview-img {
@@ -100,3 +101,4 @@ body {
 .control--checkbox input:disabled ~ .control__indicator:after {
   border-color: #7b7b7b;
 }
+

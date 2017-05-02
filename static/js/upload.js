@@ -13,3 +13,4 @@ $("input:checkbox").on('click', function() {
       $box.prop("checked", false);
       }
 });
+
