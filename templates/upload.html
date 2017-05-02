@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>App Compressing Image</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="../static/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../static/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../static/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../static/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../static/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../static/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../static/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../static/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../static/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../static/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+  <link href="../static/css/upload.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <form id="page-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <section class="view" id="img-original">
+            <img class="img-fluid" src={{file_in}} alt="Img original">
+          </section>
+        </div>
+        <div class="col-lg-4 d-inline-flex justify-content-center align-items-center flex-column">
+          <button class="btn-arrow"><img src="../static/img/button2.png" alt="arrow" width="200"></button>
+        </div>
+        <div class="col-lg-4">
+          <section class="view" id="img-compile">
+            <img class="img-fluid" src={{file_out}} alt="Img compiled">
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        
+      </div>
+    </div>
+  </form>
+  <!-- End #page-wrapper -->
+
+<script type="text/javascript" src="../static/js/upload.js"></script>
+</body>
+</html>
